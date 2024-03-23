@@ -1,0 +1,189 @@
+<html>
+  <head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+<title></title>
+<style>
+*{
+	margin: 0;
+	padding:0;}
+body {
+	background-color: rgb(7, 7, 7);
+	font-family: 'Caveat', cursive;}
+
+.content{
+	display: flex;
+	width: 100%;
+	height: 30vw;
+    color: #fff;
+    flex-direction: column;
+
+}
+ .row{
+	padding: 30vw 0; 
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin : 10px 0;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	flex-direction: column;
+}
+.video{
+	padding: 30vw 0; 
+	width: 100%;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin : 10px 0;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}
+.img {
+	width: 100px;
+}
+h4{
+	font-size: 7vw;
+	margin: 4px auto;
+	text-align: center;
+	color: #161D6F;
+
+}
+h2{
+font-size: 3vw;
+	margin: 4px auto;
+	text-align: center;
+	color: #161D6F;
+}
+.audio{
+	display: block;
+}
+
+#k1{
+	background-color: rgb(12, 227, 255);
+}
+#k2{
+	background-color: rgb(12, 227, 255)
+	
+}
+#k3{
+	background-color: rgb(0, 38, 255);
+}
+#k4{
+	background-color: rgb(0, 38, 255);
+}
+img.tengah{
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.foto{
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+iframe{
+	width: 560px;
+	height:315px;
+	padding: 20px;
+	border :3px solid black;
+
+}
+.btn{
+	background-color:rgb(253, 253, 253) ;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 100px;
+  border-radius: 50%;
+
+}
+</style>
+	
+  </head>
+  <body>
+
+
+
+  <div class="content">
+
+    <div class="row" id="k1">
+    	<div>
+		<img class="tengah"src=https://1.bp.blogspot.com/-4ZXriTSkePE/WRC5tqzTwCI/AAAAAAAAB-0/Z28jVb3tsSURw9Y8TtsLLOttXTpQ2G4dACLcB/s1600/Ucapan%2BUlang%2Btahun%2Bislami.png" alt="">
+		<h2>Putar Dulu videonya ya!</h2> <br></div>
+		<div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Oc8VJzzPk6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+    	<div><br>
+		<h2>kalo udah scroll ke bawah ya ayanggg!</h2> <br></div>
+	</div>
+    <div class="row" id="k2">
+	  <h4 > sayangkuuu </h4>
+	  <img class="foto"src="https://drive.google.com/uc?export=view&id=1nws5yJE2fYE2g1Gjtqaie19EbxDce_te" alt="">
+	</div>
+    <div class="row" id="k3">
+	  <h4 >hari ini 02 April 2024 </h4>
+	</div>
+    <div class="row" id="k4">
+	  <h4> Hari jadi kita donggg </h4>
+	</div>
+	<div class="row" id="k1">
+	  <h4> aku mau ucapinnnnn </h4>
+	</div>
+    <div class="row" id="k2">
+	  <h4> Selamat hari jadi yang ke-2 ya ayangg </h4>
+	</div>
+    <div class="row" id="k3">
+	  <h4> Kurangin Marah-Marahnya! </h4>
+	</div>
+    <div class="row" id="k4">
+	  <h4> Semoga makin langgeng </h4>
+	</div>
+	<div class="row" id="k1">
+	  <h4>sampai ketemu di tangal 2 april di tahun-tahun berikutnyaa</h4>
+	</div>
+    <div class="row" id="k2">
+	  <h4> Love youuu ayang </h4>
+	</div>
+    <div class="row" id="k3">
+	  <h4> Gausah Ngguya Ngguyu </h4>
+	</div>
+    <div class="row" id="k4">
+	  <h4>awowkwkwk </h4>
+	</div>
+	<div class="row" id="k1">
+	  <h4>Mau Hadiah?</h4>
+	  <h2>Klik</h2>
+	  <br>
+	  <h2>&#8595</h2>
+	  <br>
+	  <br>
+	  <!-- partial:index.partial.html -->
+	<button class="btn first"onclick='alert("gelem ae di bujuk i")'>Hadiah</button>&nbsp;
+	</div>
+    <div class="row" id="k2">
+	  <h4>lope youuuuu </h4>
+	</div>
+    <div class="row" id="k4">
+	  <h4> dari dimoyyy </h4>
+	  <h2>Yang sayang kamuuuuu</h2>
+
+	</div>
+	<div>
+
+</div>
+</div>
+  </body>
+  
+</html>
